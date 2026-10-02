@@ -17,5 +17,3 @@ Al abrirlo por primera vez se crea solo el archivo de la base de datos.
 Clientes de prueba: 1 Ana (normal), 2 Beto (VIP), 3 Carla (1 sanción), 4 Diego (3 sanciones, bloqueado).
 Puestos de prueba: 1 ESC-01, 2 SALA-01, 3 CAB-01.
 
-## Aclaración
-Una regla de la consigna no era del todo clara: cuando el cliente tiene sanciones, interpreté que pierde los descuentos (volumen y VIP), mantiene el recargo de fin de semana y paga un 20% más sobre la tarifa base.
