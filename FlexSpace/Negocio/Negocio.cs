@@ -13,11 +13,6 @@ namespace Negocio
         public int RegistrarReserva(Reserva reserva)
         {
             if (reserva == null) return 0;
-
-            // TODO reglas de negocio (entrega final):
-            // - validar disponibilidad sin solapamiento
-            // - calcular el costo total con las reglas de tarifa
-            // - rechazar clientes con 3 o mas sanciones (ClienteSancionadoException)
             reserva.Estado = EstadoReserva.Confirmada;
             reserva.CostoTotal = 0;
 
@@ -28,8 +23,6 @@ namespace Negocio
         {
             if (id <= 0) return false;
 
-            // TODO reglas de negocio (entrega final):
-            // - si faltan menos de 2 horas para el inicio, sumar +1 a las sanciones del cliente
             return _datos.Cancelar(id);
         }
 

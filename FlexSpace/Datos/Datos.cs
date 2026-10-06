@@ -4,7 +4,7 @@ using Entidades;
 
 namespace Datos
 {
-    // se encarga de crear la base de datos y las tablas si no existen
+    
     public static class Conexion
     {
         public const string CadenaConexion = "Data Source=flexspace.db";

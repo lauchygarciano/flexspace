@@ -11,7 +11,7 @@ internal class Program
 
         while (!salir)
         {
-            Console.WriteLine("--- FlexSpace ---");
+            Console.WriteLine("FlexSpace");
             Console.WriteLine("1. Registrar nueva reserva");
             Console.WriteLine("2. Cancelar reserva");
             Console.WriteLine("3. Consultar reservas activas por puesto");
