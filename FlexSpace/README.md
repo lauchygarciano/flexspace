@@ -1,4 +1,4 @@
-# FlexSpace - Entrega parcial
+FlexSpace - Entrega parcial
 
 Trabajo individual. C# (.NET 8) con SQLite.
 
